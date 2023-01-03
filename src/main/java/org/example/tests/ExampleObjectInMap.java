@@ -5,7 +5,7 @@ import org.example.helpClasses.ExampleClass;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestObjectInMap extends CommonTestClass {
+public class ExampleObjectInMap extends CommonExampleClass {
 
     @Override
     public void runContent() {

@@ -11,16 +11,16 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
 
-        List<TestClass> testClassList = new ArrayList<>();
+        List<ExampleClass> exampleClassList = new ArrayList<>();
 
-        testClassList.add(new TestStreamMap());
-        testClassList.add(new TestBigDecInMap());
-        testClassList.add(new TestObjectInMap());
-        testClassList.add(new TestBaseBeansConfigXML());
-        testClassList.add(new TestBaseBeansConfigAnnotations());
+        exampleClassList.add(new ExampleStreamMap());
+        exampleClassList.add(new ExampleBigDecInMap());
+        exampleClassList.add(new ExampleObjectInMap());
+        exampleClassList.add(new ExampleBaseBeansConfigXML());
+        exampleClassList.add(new ExampleBaseBeansConfigAnnotations());
 
 
-        testClassList.forEach(TestClass::runTest);
+        exampleClassList.forEach(ExampleClass::runTest);
 
     }
 }

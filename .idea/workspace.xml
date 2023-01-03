@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestBaseBeansConfigAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBaseAnnotations/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBaseAnnotations/CraftFactoryAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBaseAnnotations/builderLine/CraftBuilderAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBaseAnnotations/builderLine/HeavyCraftAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBaseAnnotations/builderLine/LightCraftAnnotations.java" afterDir="false" />
+    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами.&#10;на аннотациях">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestBaseBeansConfigXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestBaseBeansConfigXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/Craft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/Craft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/CraftFactoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBaseXML/CraftFactoy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/builderLine/CraftBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBaseXML/builderLine/CraftBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/builderLine/HeavyCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBaseXML/builderLine/HeavyCraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/builderLine/LightCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBaseXML/builderLine/LightCraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/CommonTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/CommonExampleClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestBaseBeansConfigAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/ExampleBaseBeansConfigAnnotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestBaseBeansConfigXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/ExampleBaseBeansConfigXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestBigDecInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/ExampleBigDecInMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/ExampleClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestObjectInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/ExampleObjectInMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestStreamMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/ExampleStreamMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +49,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/prj/z1/src/main/java/org/example/tests/beansBaseAnnotations",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/prj/z1/src/main/java/org/example/tests/beansBaseAnnotations&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\prj\z1\src\main\java\org\example\tests\beansBaseAnnotations" />
@@ -134,7 +129,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/line_1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -144,6 +151,7 @@
     <MESSAGE value="болванка для собеседований" />
     <MESSAGE value="болванка для собеседований maven" />
     <MESSAGE value="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами." />
-    <option name="LAST_COMMIT_MESSAGE" value="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами." />
+    <MESSAGE value="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами.&#10;на аннотациях" />
+    <option name="LAST_COMMIT_MESSAGE" value="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами.&#10;на аннотациях" />
   </component>
 </project>

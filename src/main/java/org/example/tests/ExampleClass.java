@@ -1,6 +1,6 @@
 package org.example.tests;
 
-public interface TestClass {
+public interface ExampleClass {
     void runTest();
 
     void runTitle();
