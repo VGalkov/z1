@@ -1,19 +1,27 @@
-package org.example.tests.beansBase;
+package org.example.tests.beansBaseXML;
 
-import org.example.tests.beansBase.builderLine.CraftBuilder;
+import org.example.helpClasses.Craft;
+import org.example.tests.beansBaseXML.builderLine.CraftBuilder;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class CraftFactoy {
-    private final int carsCount;
-    private final CraftBuilder craftBuilder;
+    private int buildNumber;
+    private CraftBuilder craftBuilder;
     private final List<Craft> crafts = new ArrayList<>();
 
 
-    public CraftFactoy(int carsCount, CraftBuilder productionLine) {
-        this.carsCount = carsCount;
+    public CraftFactoy(int buildNumber, CraftBuilder productionLine) {
+        this.buildNumber = buildNumber;
         this.craftBuilder = productionLine;
+    }
+
+    public CraftFactoy() {
+    }
+
+    private static CraftFactoy factory() {
+        return new CraftFactoy();
     }
 
     private void init() {
@@ -26,7 +34,7 @@ public class CraftFactoy {
 
     public void run() {
         int carsBuild = 0;
-        while (carsCount > carsBuild){
+        while (buildNumber > carsBuild){
             crafts.add(craftBuilder.work());
             carsBuild++;
         }
@@ -34,5 +42,9 @@ public class CraftFactoy {
 
     public List<Craft> getCrafts() {
         return crafts;
+    }
+
+    public void setBuildNumber(int size) {
+        this.buildNumber = size;
     }
 }

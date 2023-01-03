@@ -1,8 +1,7 @@
 package org.example.tests;
 
-import org.example.tests.CommonTestClass;
-import org.example.tests.beansBase.Craft;
-import org.example.tests.beansBase.CraftFactoy;
+import org.example.helpClasses.Craft;
+import org.example.tests.beansBaseXML.CraftFactoy;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

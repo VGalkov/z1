@@ -1,10 +1,6 @@
 package org.example;
 
-import org.example.tests.TestBigDecInMap;
-import org.example.tests.TestClass;
-import org.example.tests.TestObjectInMap;
-import org.example.tests.TestStreamMap;
-import org.example.tests.TestBaseBeansConfigXML;
+import org.example.tests.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +17,7 @@ public class App {
         testClassList.add(new TestBigDecInMap());
         testClassList.add(new TestObjectInMap());
         testClassList.add(new TestBaseBeansConfigXML());
+        testClassList.add(new TestBaseBeansConfigAnnotations());
 
 
         testClassList.forEach(TestClass::runTest);

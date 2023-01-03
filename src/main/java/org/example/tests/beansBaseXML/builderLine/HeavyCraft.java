@@ -1,6 +1,6 @@
-package org.example.tests.beansBase.builderLine;
+package org.example.tests.beansBaseXML.builderLine;
 
-import org.example.tests.beansBase.Craft;
+import org.example.helpClasses.Craft;
 
 public class HeavyCraft implements  CraftBuilder {
     protected final static String model = "HeavyCraft";

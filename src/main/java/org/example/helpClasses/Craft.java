@@ -1,4 +1,4 @@
-package org.example.tests.beansBase;
+package org.example.helpClasses;
 
 public class Craft {
     private final boolean status;
