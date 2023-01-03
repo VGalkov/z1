@@ -1,6 +1,8 @@
-package org.example.tests.beansBase;
+package org.example.tests;
 
 import org.example.tests.CommonTestClass;
+import org.example.tests.beansBase.Craft;
+import org.example.tests.beansBase.CraftFactoy;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -8,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class BaseBeansConfigXML extends CommonTestClass {
+public class TestBaseBeansConfigXML extends CommonTestClass {
 
     @Override
     public void runContent() {

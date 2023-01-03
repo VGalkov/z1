@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/BaseBeansConfigXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/Craft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/CraftFactoy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/builderLine/CraftBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/builderLine/HeavyCraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/builderLine/LightCraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/CommonTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/CommonTestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestObjectInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestObjectInMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/BaseBeansConfigXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestBaseBeansConfigXML.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672754238750</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами.">
+      <created>1672757657821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672757657821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
