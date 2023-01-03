@@ -13,7 +13,8 @@ public class LightCraftAnnotations implements CraftBuilderAnnotations {
         return new Craft(true, getModel());
     }
 
-    protected String getModel() {
+    @Override
+    public String getModel() {
         return model;
     }
 }

@@ -11,8 +11,8 @@ public class HeavyCraftAnnotations implements CraftBuilderAnnotations {
     public Craft work() {
         return new Craft(true, getModel());
     }
-
-    protected String getModel() {
+    @Override
+    public String getModel() {
         return model;
     }
 }

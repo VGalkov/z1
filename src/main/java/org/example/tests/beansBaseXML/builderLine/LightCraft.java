@@ -11,7 +11,8 @@ public class LightCraft implements  CraftBuilder {
         return new Craft(true, getModel());
     }
 
-    protected String getModel() {
+    @Override
+    public String getModel() {
         return model;
     }
 }

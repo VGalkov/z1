@@ -2,7 +2,7 @@ package org.example.tests.beansBaseXML.builderLine;
 
 import org.example.helpClasses.Craft;
 
-public class HeavyCraft implements  CraftBuilder {
+public class HeavyCraft implements CraftBuilder {
     protected final static String model = "HeavyCraft";
 
     @Override
@@ -10,7 +10,8 @@ public class HeavyCraft implements  CraftBuilder {
         return new Craft(true, getModel());
     }
 
-    protected String getModel() {
+    @Override
+    public String getModel() {
         return model;
     }
 }
