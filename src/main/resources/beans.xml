@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+
+    <bean id="heavyCraftFactory" class="org.example.tests.beansBase.CraftFactoy" scope="singleton"
+          destroy-method="destroy"
+          init-method="init"
+    >
+        <constructor-arg index="0" value="3"/>
+        <constructor-arg index="1" ref="heavyCraft"/>
+    </bean>
+
+    <bean id="lightCraftFactory" class="org.example.tests.beansBase.CraftFactoy" scope="singleton"
+          destroy-method="destroy"
+          init-method="init">
+        <constructor-arg index="0" value="2"/>
+        <constructor-arg index="1" ref="lightCraft"/>
+    </bean>
+
+    <bean id="lightCraft" class="org.example.tests.beansBase.builderLine.LightCraft"/>
+    <bean id="heavyCraft" class="org.example.tests.beansBase.builderLine.HeavyCraft"/>
+
+</beans>

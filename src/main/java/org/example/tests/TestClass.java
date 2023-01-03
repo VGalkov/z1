@@ -5,4 +5,6 @@ public interface TestClass {
 
     void runTitle();
     void runContent();
+
+    void runStopLine();
 }

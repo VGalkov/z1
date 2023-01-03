@@ -1,11 +1,12 @@
 package org.example.tests;
 
-abstract class CommonTestClass implements TestClass {
+public abstract class CommonTestClass implements TestClass {
 
     @Override
     public void runTest() {
         runTitle();
         runContent();
+        runStopLine();
     }
 
     @Override
@@ -16,4 +17,8 @@ abstract class CommonTestClass implements TestClass {
     @Override
     public void runContent() { }
 
+    @Override
+    public void runStopLine() {
+        System.out.println("-------------------------");
+    }
 }

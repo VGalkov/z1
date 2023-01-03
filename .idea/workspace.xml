@@ -4,23 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/ExampleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/CommonTestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestBigDecInMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestObjectInMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestStreamMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/BaseBeansConfigXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/Craft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/CraftFactoy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/builderLine/CraftBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/builderLine/HeavyCraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/beansBase/builderLine/LightCraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/CommonTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/CommonTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/TestObjectInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/TestObjectInMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +51,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/prj/z1/src/main/java/org/example/tests/beansBase/builderLine",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\prj\z1\src\main\java\org\example\tests\beansBase\builderLine" />
+      <recent name="E:\prj\z1\src\main" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.tests.beansBase.builderLine" />
+      <recent name="org.example.tests.beansBase" />
       <recent name="org.example.tests" />
       <recent name="tests" />
     </key>
@@ -92,6 +96,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672687026605</updated>
     </task>
+    <task id="LOCAL-00001" summary="болванка для собеседований maven">
+      <created>1672754238750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672754238750</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,5 +116,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="болванка для собеседований" />
+    <MESSAGE value="болванка для собеседований maven" />
+    <MESSAGE value="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами." />
+    <option name="LAST_COMMIT_MESSAGE" value="болванка для собеседований maven&#10;&#10;простое добавление контекста с бинами." />
   </component>
 </project>
