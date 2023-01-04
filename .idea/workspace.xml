@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="болванка для собеседований maven&#10;&#10;сеиализация (без маршализации тупо состояние объекта - в файл)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/ExampleSerialisation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/ParametrisedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/ExampleGenerics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/CommonExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/CommonExampleClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672769173111</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="болванка для собеседований maven&#10;&#10;сеиализация (без маршализации тупо состояние объекта - в файл)">
+      <created>1672851822517</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672851822517</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +198,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/line_1" />
+                        <option value="line-2" />
                       </list>
                     </value>
                   </entry>
