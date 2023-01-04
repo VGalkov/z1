@@ -19,6 +19,7 @@ public class App {
         exampleClassList.add(new ExampleBaseBeansConfigXML());
         exampleClassList.add(new ExampleBaseBeansConfigAnnotations());
         exampleClassList.add(new ExampleSerialisation());
+        exampleClassList.add(new ExampleSorting());
 
 
         exampleClassList.forEach(ExampleClass::runTest);
