@@ -18,7 +18,7 @@ public class App {
         exampleClassList.add(new ExampleObjectInMap());
         exampleClassList.add(new ExampleBaseBeansConfigXML());
         exampleClassList.add(new ExampleBaseBeansConfigAnnotations());
-        exampleClassList.add(new ExampleSerialisation());
+        exampleClassList.add(new ExampleSerialization());
         exampleClassList.add(new ExampleSorting());
 
 

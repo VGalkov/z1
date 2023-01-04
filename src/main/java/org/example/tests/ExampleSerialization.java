@@ -5,7 +5,7 @@ import org.example.helpClasses.Model;
 import java.io.*;
 import java.util.Arrays;
 
-public class ExampleSerialisation extends CommonExampleClass {
+public class ExampleSerialization extends CommonExampleClass {
 
     private boolean isSerialised = false;
     private Object serialisedObject = null;
@@ -77,7 +77,7 @@ public class ExampleSerialisation extends CommonExampleClass {
 
         Model model = new Model("AAAAAAAAAAAAA!", "BBBBBBBBBBBB");
 
-        ExampleSerialisation exampleSerialisation = new ExampleSerialisation();
+        ExampleSerialization exampleSerialisation = new ExampleSerialization();
         exampleSerialisation.serialise(model);
         System.out.println("Объект сериализуем? - " + (isNormalSerialization(exampleSerialisation, model) ? "Да" : "Нет"));
 
@@ -93,7 +93,7 @@ public class ExampleSerialisation extends CommonExampleClass {
         }
     }
 
-    private boolean isNormalSerialization(ExampleSerialisation exampleSerialisation, Model model) {
+    private boolean isNormalSerialization(ExampleSerialization exampleSerialisation, Model model) {
         return exampleSerialisation.isSerialised() && model.equals(exampleSerialisation.getSerialisedObject());
     }
 }
