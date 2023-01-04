@@ -15,9 +15,6 @@ public abstract class CommonExampleClass implements ExampleClass {
     }
 
     @Override
-    public void runContent() { }
-
-    @Override
     public void runStopLine() {
         System.out.println("-------------------------");
     }
