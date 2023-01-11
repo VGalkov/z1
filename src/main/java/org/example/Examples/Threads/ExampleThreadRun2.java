@@ -1,38 +1,38 @@
-package org.example.Examples.Treads;
+package org.example.Examples.Threads;
 
 import org.example.Examples.CommonExampleClass;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import static java.lang.Thread.sleep;
 
-public class ExampleThreadRun1 extends CommonExampleClass {
-
+public class ExampleThreadRun2 extends CommonExampleClass {
+    private static final int MAX_NUMBER = 16; // Integer.MAX_VALUE/100000;
 
     @Override
     public void runContent() {
-        System.out.println("");
-        Thread thread1 = new MyThread(100);
 
-        MyRunnable myRunnable = new MyRunnable(200);
-        Thread thread2 = new Thread(myRunnable);
+        List<Thread> threads = new ArrayList<>();
 
-        // -----
-        thread1.setPriority(1);
-        thread2.setPriority(10);
+        for (int i = 0; i< 10; i++) {
+            threads.add(new MyThread());
+        }
 
-
-        // -----
-        thread1.start();
-        thread2.start();
-
+        threads.forEach(Thread::start);
     }
 
 
 
     private class MyThread extends Thread {
-        private static final int MAX_NUMBER = Integer.MAX_VALUE/100000;
-        private int     timeout;
+        private static final int DEFAULT_TIMEOUT = 100;
+        private final int timeout;
+
+        MyThread() {
+            super();
+            this.timeout = DEFAULT_TIMEOUT;
+        }
 
         MyThread(int timeout) {
             super();
@@ -53,7 +53,6 @@ public class ExampleThreadRun1 extends CommonExampleClass {
     }
 
     private class MyRunnable implements Runnable {
-        private static final int MAX_NUMBER = Integer.MAX_VALUE/100000;
         private int timeout;
 
         MyRunnable(int timeout) {
@@ -72,4 +71,5 @@ public class ExampleThreadRun1 extends CommonExampleClass {
             }
         }
     }
+
 }
