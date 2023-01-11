@@ -1,7 +1,7 @@
 package org.example;
 
 import org.example.Examples.*;
-import org.example.Examples.Threads.*;
+import org.example.Examples.Patterns.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ public class App {
     public static void main(String[] args) {
 
         List<ExampleClass> exampleClassList = new ArrayList<>();
-        //*
+        /*
         exampleClassList.add(new ExampleBaseBeansConfigXML());
         exampleClassList.add(new ExampleBaseBeansConfigAnnotations());
         //*
@@ -28,9 +28,20 @@ public class App {
         exampleClassList.add(new ExampleThreadRun3());
         exampleClassList.add(new ExampleThreadRunVolatile());
         exampleClassList.add(new ExampleThreadDeadlock());
-        exampleClassList.add(new ExampleThreadNotyfy());
-        exampleClassList.add(new ExampleSemaphore());
+        exampleClassList.add(new ExampleThreadNotify());
+        exampleClassList.add(new ExampleSemaphore());*/
 
+        //
+       // exampleClassList.add(new ExampleSingletone());
+       // exampleClassList.add(new ExampleFactory());
+      //  exampleClassList.add(new ExampleAbstractFactory());
+      //  exampleClassList.add(new ExampleDecorator());
+
+        //exampleClassList.add(new ExampleFacade());
+        //exampleClassList.add(new ExampleObserver());
+        exampleClassList.add(new ExampleState());
+
+        //
         exampleClassList.forEach(ExampleClass::runTest);
 
     }

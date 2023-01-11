@@ -1,0 +1,44 @@
+package org.example.Examples.Patterns;
+
+import org.example.Examples.CommonExampleClass;
+
+import java.util.List;
+
+public class ExampleAdapter extends CommonExampleClass {
+
+
+    @Override
+    public void runContent() {
+
+
+    }
+
+
+
+    private static class PrintAdapter implements  listPrinter {
+
+        private final Printer printer = new Printer();
+
+
+        @Override
+        public void print(List<String> list) {
+            if (!list.isEmpty())
+                list.forEach(printer::print);
+        }
+    }
+
+
+    private interface listPrinter{
+        void print(List<String> list);
+    }
+
+
+
+    private static class Printer {
+
+        public void print(String page) {
+            System.out.println(page);
+        }
+    }
+
+}

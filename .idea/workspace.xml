@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="рефактор">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Patterns/ExampleAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Patterns/ExampleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Patterns/ExampleDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Patterns/ExampleFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Patterns/ExampleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Patterns/ExampleObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Patterns/ExampleSingletone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Patterns/ExampleState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Treads/ExampleSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Treads/ExampleThreadDeadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadDeadlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Treads/ExampleThreadNotyfy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadNotyfy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Treads/ExampleThreadNotyfy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadNotyfy2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Treads/ExampleThreadRun1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRun1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Treads/ExampleThreadRun2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRun2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Treads/ExampleThreadRun3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRun3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Treads/ExampleThreadRunVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRunVolatile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadNotyfy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadNotyfy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadNotify2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit3 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,11 +81,11 @@
       <recent name="org.example.tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.Examples.Patterns" />
       <recent name="org.example.Examples.Treads" />
       <recent name="org.example.tests" />
       <recent name="org.example.tests.beansBase.builderLine" />
       <recent name="org.example.tests.beansBase" />
-      <recent name="tests" />
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
@@ -211,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673384148518</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="рефактор">
+      <created>1673423852464</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673423852464</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

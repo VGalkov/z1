@@ -4,7 +4,7 @@ import org.example.Examples.CommonExampleClass;
 
 import java.util.*;
 
-public class ExampleThreadNotyfy2 extends CommonExampleClass {
+public class ExampleThreadNotify2 extends CommonExampleClass {
 
     static final List<String> list = Collections.synchronizedList(new ArrayList<>());
 

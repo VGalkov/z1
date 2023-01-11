@@ -2,7 +2,7 @@ package org.example.Examples.Threads;
 
 import org.example.Examples.CommonExampleClass;
 
-public class ExampleThreadNotyfy extends CommonExampleClass {
+public class ExampleThreadNotify extends CommonExampleClass {
 
 
     @Override
@@ -34,7 +34,7 @@ public class ExampleThreadNotyfy extends CommonExampleClass {
                     } catch (InterruptedException e) {
                         throw new RuntimeException(e);
                     }
-                    //notify();
+                    notify();
                 }
             }
         }
