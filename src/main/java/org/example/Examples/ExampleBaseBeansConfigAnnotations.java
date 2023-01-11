@@ -16,7 +16,7 @@ public class ExampleBaseBeansConfigAnnotations extends CommonExampleClass {
     public void runContent() {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfig.class);
 
-        CraftFactoryAnnotations craftFactoy = context.getBean("craftFactoyAnnotations", CraftFactoryAnnotations.class);
+        CraftFactoryAnnotations craftFactoy = context.getBean("craftFactoryAnnotations", CraftFactoryAnnotations.class);
         craftFactoy.setBuildNumber(4);
 
         craftFactoy.run();

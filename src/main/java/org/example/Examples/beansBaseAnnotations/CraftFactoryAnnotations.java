@@ -30,7 +30,7 @@ public class CraftFactoryAnnotations {
     public CraftFactoryAnnotations() {
     }
 
-    private static CraftFactoryAnnotations craftFactoyAnnotations() {
+    private static CraftFactoryAnnotations craftFactoryAnnotations() {
         return new CraftFactoryAnnotations();
     }
 

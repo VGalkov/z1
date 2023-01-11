@@ -9,6 +9,11 @@ public class Craft {
         this.model = model;
     }
 
+    public Craft() {
+        this.status = true;
+        this.model = "noNameModel";
+    }
+
     public boolean isExists() {
         return status;
     }
@@ -16,4 +21,9 @@ public class Craft {
     public String getModel() {
         return model;
     }
+
+    private String getValueForReflection() {
+        return "default volume private method returns";
+    }
+
 }

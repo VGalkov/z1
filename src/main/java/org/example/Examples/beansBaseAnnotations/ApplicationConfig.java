@@ -12,7 +12,7 @@ public class ApplicationConfig {
 
 
     @Bean
-    public CraftFactoryAnnotations craftFactoyAnnotations() {
+    public CraftFactoryAnnotations craftFactoryAnnotations() {
         return new CraftFactoryAnnotations();
     }
 
