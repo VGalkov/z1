@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="рефлексия">
+    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="...">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/AbstractParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/Params.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleBaseBeansConfigXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleBaseBeansConfigXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRun1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRun1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRun2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRun2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRun3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/Threads/ExampleThreadRun3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseXML/CraftFactoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseXML/CraftFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/ParametrisedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/ParametrisedClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673448050630</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="...">
+      <created>1673523853150</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673523853150</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +283,8 @@
     <MESSAGE value="рефактор" />
     <MESSAGE value="паттерны" />
     <MESSAGE value="рефлексия" />
-    <option name="LAST_COMMIT_MESSAGE" value="рефлексия" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

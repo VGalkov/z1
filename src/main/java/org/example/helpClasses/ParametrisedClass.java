@@ -1,6 +1,6 @@
 package org.example.helpClasses;
 
-public class ParametrisedClass {
+public class ParametrisedClass  extends AbstractParams{
 
     private Boolean a;
     private String b;
@@ -30,4 +30,5 @@ public class ParametrisedClass {
     public <T1> Object returnMe(T1 obj) {
         return obj;
     }
+
 }
