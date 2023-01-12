@@ -1,7 +1,7 @@
 package org.example.Examples;
 
 import org.example.helpClasses.Craft;
-import org.example.Examples.beansBaseXML.CraftFactoy;
+import org.example.Examples.beansBaseXML.CraftFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -15,8 +15,8 @@ public class ExampleBaseBeansConfigXML extends CommonExampleClass {
     public void runContent() {
         ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
-        CraftFactoy lightCraftFactory = context.getBean("lightCraftFactory", CraftFactoy.class);
-        CraftFactoy heavyCraftFactory = context.getBean("heavyCraftFactory", CraftFactoy.class);
+        CraftFactory lightCraftFactory = context.getBean("lightCraftFactory", CraftFactory.class);
+        CraftFactory heavyCraftFactory = context.getBean("heavyCraftFactory", CraftFactory.class);
 
         lightCraftFactory.run();
         heavyCraftFactory.run();

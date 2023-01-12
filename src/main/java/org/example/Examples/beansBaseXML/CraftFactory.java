@@ -6,22 +6,22 @@ import org.example.Examples.beansBaseXML.builderLine.CraftBuilder;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CraftFactoy {
+public class CraftFactory {
     private int buildNumber;
     private CraftBuilder craftBuilder;
     private final List<Craft> crafts = new ArrayList<>();
 
 
-    public CraftFactoy(int buildNumber, CraftBuilder productionLine) {
+    public CraftFactory(int buildNumber, CraftBuilder productionLine) {
         this.buildNumber = buildNumber;
         this.craftBuilder = productionLine;
     }
 
-    public CraftFactoy() {
+    public CraftFactory() {
     }
 
-    private static CraftFactoy factory() {
-        return new CraftFactoy();
+    private static CraftFactory factory() {
+        return new CraftFactory();
     }
 
     private void init() {

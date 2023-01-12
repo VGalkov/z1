@@ -11,9 +11,9 @@ public class ExampleSemaphore extends CommonExampleClass {
     @Override
     public void runContent() {
         List<User> list = new ArrayList<>();
-        Semaphore semaphore = new Semaphore(10);
+        Semaphore semaphore = new Semaphore(3);
 
-        for (int i = 0; i< 30; i++) {
+        for (int i = 0; i< 7; i++) {
             User user = new User();
             user.resource = semaphore;
             list.add(user);

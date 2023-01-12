@@ -7,7 +7,7 @@ import java.util.Arrays;
 import static java.lang.Thread.sleep;
 
 public class ExampleThreadRun1 extends CommonExampleClass {
-    private static final int MAX_NUMBER = 16; // Integer.MAX_VALUE/100000;
+    private static final int MAX_NUMBER = 8; // Integer.MAX_VALUE/100000;
 
     @Override
     public void runContent() {

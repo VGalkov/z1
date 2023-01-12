@@ -9,14 +9,14 @@ import java.util.List;
 import static java.lang.Thread.sleep;
 
 public class ExampleThreadRun2 extends CommonExampleClass {
-    private static final int MAX_NUMBER = 16; // Integer.MAX_VALUE/100000;
+    private static final int MAX_NUMBER = 8; // Integer.MAX_VALUE/100000;
 
     @Override
     public void runContent() {
 
         List<Thread> threads = new ArrayList<>();
 
-        for (int i = 0; i< 10; i++) {
+        for (int i = 0; i< 3; i++) {
             threads.add(new MyThread());
         }
 

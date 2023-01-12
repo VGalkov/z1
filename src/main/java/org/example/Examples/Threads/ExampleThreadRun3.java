@@ -14,7 +14,7 @@ public class ExampleThreadRun3 extends CommonExampleClass {
         List<Thread> threads = new ArrayList<>();
         Resource resource1 = new Resource();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 3; i++) {
             threads.add(new MyThread(resource1));
         }
 
@@ -28,7 +28,7 @@ public class ExampleThreadRun3 extends CommonExampleClass {
         List<Thread> threads2 = new ArrayList<>();
         ResourceSync resource2 = new ResourceSync();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 3; i++) {
             threads2.add(new MyThread(resource2));
         }
 
