@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="...">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/AbstractParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/Params.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/ParametrisedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/ParametrisedClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "last_opened_file_path": "E:/prj/vv",
+    "last_opened_file_path": "E:/prj/tezis/modules-ubrir",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
