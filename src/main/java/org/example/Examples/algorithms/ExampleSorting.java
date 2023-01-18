@@ -1,4 +1,6 @@
-package org.example.Examples;
+package org.example.Examples.algorithms;
+
+import org.example.Examples.AbstractExampleClass;
 
 import java.util.Arrays;
 import java.util.Comparator;

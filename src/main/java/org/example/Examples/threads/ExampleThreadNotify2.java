@@ -1,4 +1,4 @@
-package org.example.Examples.Threads;
+package org.example.Examples.threads;
 
 import org.example.Examples.AbstractExampleClass;
 

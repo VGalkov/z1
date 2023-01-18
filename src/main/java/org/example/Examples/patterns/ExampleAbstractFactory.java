@@ -1,4 +1,4 @@
-package org.example.Examples.Patterns;
+package org.example.Examples.patterns;
 
 import org.example.Examples.AbstractExampleClass;
 

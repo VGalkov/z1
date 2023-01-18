@@ -1,8 +1,10 @@
 package org.example;
 
 import org.example.Examples.*;
-import org.example.Examples.Patterns.*;
-import org.example.Examples.Threads.*;
+import org.example.Examples.algorithms.ExampleRecursion;
+import org.example.Examples.algorithms.ExampleSorting;
+import org.example.Examples.patterns.*;
+import org.example.Examples.threads.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,6 +44,7 @@ public class App {
         exampleClassList.add(new ExampleState());
         exampleClassList.add(new ExampleReflection());
         //exampleClassList.add(new `ExampleFuncInterface`());
+        exampleClassList.add(new ExampleRecursion());
         //
         exampleClassList.forEach(ExampleClass::runTest);
     }
