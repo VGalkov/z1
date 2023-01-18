@@ -5,7 +5,7 @@ import org.example.helpClasses.Model;
 import java.io.*;
 import java.util.Arrays;
 
-public class ExampleSerialization extends CommonExampleClass {
+public class ExampleSerialization extends AbstractExampleClass {
 
     private boolean isSerialised = false;
     private Object serialisedObject = null;

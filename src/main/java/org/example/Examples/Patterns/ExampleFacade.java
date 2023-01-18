@@ -1,8 +1,8 @@
 package org.example.Examples.Patterns;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
-public class ExampleFacade extends CommonExampleClass {
+public class ExampleFacade extends AbstractExampleClass {
 // упрощение структуры действий, общая логика как у декоартора
     @Override
     public void runContent() {

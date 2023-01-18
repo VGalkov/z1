@@ -1,6 +1,6 @@
 package org.example.helpClasses;
 
-public class ParametrisedClass  extends AbstractParams{
+public class ParametrisedClass<T1, T2>  extends AbstractParams{
 
     private Boolean a;
     private String b;
@@ -27,7 +27,11 @@ public class ParametrisedClass  extends AbstractParams{
     }
 
 
-    public <T1> Object returnMe(T1 obj) {
+    public <T1> Object returnMe1(T1 obj) {
+        return obj;
+    }
+
+    public <T2> Object returnMe2(T2 obj) {
         return obj;
     }
 

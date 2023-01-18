@@ -41,6 +41,7 @@ public class App {
         exampleClassList.add(new ExampleObserver());
         exampleClassList.add(new ExampleState());
         exampleClassList.add(new ExampleReflection());
+        //exampleClassList.add(new `ExampleFuncInterface`());
         //
         exampleClassList.forEach(ExampleClass::runTest);
     }

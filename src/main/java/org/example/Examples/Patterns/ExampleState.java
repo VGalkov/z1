@@ -1,8 +1,8 @@
 package org.example.Examples.Patterns;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
-public class ExampleState extends CommonExampleClass {
+public class ExampleState extends AbstractExampleClass {
     @Override
     public void runContent() {
         Context context = new Context();

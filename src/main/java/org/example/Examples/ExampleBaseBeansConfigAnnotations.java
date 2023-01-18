@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ExampleBaseBeansConfigAnnotations extends CommonExampleClass {
+public class ExampleBaseBeansConfigAnnotations extends AbstractExampleClass {
 
 
     @Override

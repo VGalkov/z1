@@ -1,10 +1,10 @@
 package org.example.Examples.Patterns;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
 import java.util.List;
 
-public class ExampleAdapter extends CommonExampleClass {
+public class ExampleAdapter extends AbstractExampleClass {
 
 
     @Override

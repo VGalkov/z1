@@ -1,12 +1,12 @@
 package org.example.Examples.Threads;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Semaphore;
 
-public class ExampleSemaphore extends CommonExampleClass {
+public class ExampleSemaphore extends AbstractExampleClass {
 
     @Override
     public void runContent() {

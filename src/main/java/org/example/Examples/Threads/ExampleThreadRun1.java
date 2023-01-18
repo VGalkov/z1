@@ -1,12 +1,12 @@
 package org.example.Examples.Threads;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
 import java.util.Arrays;
 
 import static java.lang.Thread.sleep;
 
-public class ExampleThreadRun1 extends CommonExampleClass {
+public class ExampleThreadRun1 extends AbstractExampleClass {
     private static final int MAX_NUMBER = 8; // Integer.MAX_VALUE/100000;
 
     @Override

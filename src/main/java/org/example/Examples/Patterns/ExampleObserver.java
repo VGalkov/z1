@@ -1,11 +1,11 @@
 package org.example.Examples.Patterns;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExampleObserver extends CommonExampleClass {
+public class ExampleObserver extends AbstractExampleClass {
 
 
     @Override

@@ -23,7 +23,12 @@ public class Craft {
     }
 
     private String getValueForReflection() {
-        return "default volume private method returns";
+        return "default volume private method returns " + getAdditionalString();
+    }
+
+
+    private String getAdditionalString() {
+        return "getAdditionalString";
     }
 
 }

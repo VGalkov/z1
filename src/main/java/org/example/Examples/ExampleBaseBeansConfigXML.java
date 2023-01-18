@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ExampleBaseBeansConfigXML extends CommonExampleClass {
+public class ExampleBaseBeansConfigXML extends AbstractExampleClass {
 
     @Override
     public void runContent() {

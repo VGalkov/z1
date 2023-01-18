@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ExampleBigDecInMap extends CommonExampleClass {
+public class ExampleBigDecInMap extends AbstractExampleClass {
 
     @Override
     public void runContent() {

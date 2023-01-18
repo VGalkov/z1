@@ -1,6 +1,6 @@
 package org.example.Examples;
 
-public abstract class CommonExampleClass implements ExampleClass {
+public abstract class AbstractExampleClass implements ExampleClass {
 
     @Override
     public void runTest() {

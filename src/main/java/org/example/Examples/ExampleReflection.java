@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
-public class ExampleReflection extends CommonExampleClass {
+public class ExampleReflection extends AbstractExampleClass {
 
     @Override
     public void runContent() {

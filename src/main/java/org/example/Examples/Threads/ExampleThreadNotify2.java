@@ -1,10 +1,10 @@
 package org.example.Examples.Threads;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
 import java.util.*;
 
-public class ExampleThreadNotify2 extends CommonExampleClass {
+public class ExampleThreadNotify2 extends AbstractExampleClass {
 
     static final List<String> list = Collections.synchronizedList(new ArrayList<>());
 

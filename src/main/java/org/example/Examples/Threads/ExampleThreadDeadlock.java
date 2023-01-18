@@ -1,11 +1,11 @@
 package org.example.Examples.Threads;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
 
 import static java.lang.Thread.sleep;
 
-public class ExampleThreadDeadlock extends CommonExampleClass {
+public class ExampleThreadDeadlock extends AbstractExampleClass {
 
 
     @Override

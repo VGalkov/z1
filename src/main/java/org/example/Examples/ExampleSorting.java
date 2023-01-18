@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ExampleSorting extends CommonExampleClass {
+public class ExampleSorting extends AbstractExampleClass {
 
     private static final List<Integer> DEFAULT_LIST = Arrays.asList(1,43,12,45,1,56,4,1,1,6,7);
     private List<Integer> data;

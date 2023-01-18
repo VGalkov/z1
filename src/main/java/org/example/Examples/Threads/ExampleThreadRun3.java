@@ -1,11 +1,11 @@
 package org.example.Examples.Threads;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExampleThreadRun3 extends CommonExampleClass {
+public class ExampleThreadRun3 extends AbstractExampleClass {
 
 
     @Override

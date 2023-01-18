@@ -1,8 +1,8 @@
 package org.example.Examples.Threads;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
-public class ExampleThreadRunVolatile extends CommonExampleClass {
+public class ExampleThreadRunVolatile extends AbstractExampleClass {
 
     //volatile
                 static int i = 0;

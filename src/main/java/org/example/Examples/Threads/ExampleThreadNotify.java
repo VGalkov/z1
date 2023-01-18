@@ -1,8 +1,8 @@
 package org.example.Examples.Threads;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
-public class ExampleThreadNotify extends CommonExampleClass {
+public class ExampleThreadNotify extends AbstractExampleClass {
 
 
     @Override

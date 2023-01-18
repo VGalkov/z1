@@ -1,8 +1,8 @@
 package org.example.Examples.Patterns;
 
-import org.example.Examples.CommonExampleClass;
+import org.example.Examples.AbstractExampleClass;
 
-public class ExampleAbstractFactory extends CommonExampleClass {
+public class ExampleAbstractFactory extends AbstractExampleClass {
 
 
     @Override

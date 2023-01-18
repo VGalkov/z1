@@ -5,7 +5,7 @@ import org.example.helpClasses.ExampleClass;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ExampleObjectInMap extends CommonExampleClass {
+public class ExampleObjectInMap extends AbstractExampleClass {
 
     @Override
     public void runContent() {
