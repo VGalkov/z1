@@ -38,10 +38,12 @@ public class App {
         exampleClassList.add(new ExampleFactory());
         exampleClassList.add(new ExampleAbstractFactory());
         exampleClassList.add(new ExampleDecorator());
-
         exampleClassList.add(new ExampleFacade());
         exampleClassList.add(new ExampleObserver());
         exampleClassList.add(new ExampleState());
+        exampleClassList.add(new ExamplePrototype());
+
+        //*
         exampleClassList.add(new ExampleReflection());
         //exampleClassList.add(new `ExampleFuncInterface`());
         exampleClassList.add(new ExampleRecursion());

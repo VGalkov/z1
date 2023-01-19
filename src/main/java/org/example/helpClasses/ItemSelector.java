@@ -51,7 +51,7 @@ public class ItemSelector {
         }
     }
 
-    interface Item {
+    public interface Item {
 
         public int width();
 
