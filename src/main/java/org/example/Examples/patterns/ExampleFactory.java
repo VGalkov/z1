@@ -1,8 +1,8 @@
 package org.example.Examples.patterns;
 
 import org.example.Examples.AbstractExampleClass;
+import org.example.helpClasses.ItemSelector;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.example.Examples.patterns;
+package org.example.helpClasses;
 
 
 public class ItemSelector {
