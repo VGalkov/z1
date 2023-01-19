@@ -2,25 +2,31 @@ package org.example.Examples.patterns;
 
 import org.example.Examples.AbstractExampleClass;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class ExampleAbstractFactory extends AbstractExampleClass {
 
 
     @Override
     public void runContent() {
-        EntityFabric entityFabric1 = new HeavyFabric();
-        EntityFabric entityFabric2 = new LightFabric();
+        Map<String, EntityFabric> entityFabricMap = new HashMap<>();
+        entityFabricMap.put("Large", new HeavyFabric());
+        entityFabricMap.put("Small", new LightFabric());
 
-        String variant = "LARGE";
-
-        if ("LARGE".equals(variant)) {
-            System.out.println(entityFabric1.getElement());
-            System.out.println(entityFabric1.getItem());
-
-        } else {
-            System.out.println(entityFabric2.getElement());
-            System.out.println(entityFabric2.getItem());
+        String key;
+        for (int i = 0; i < 5; i++) {
+            if (i % 2 == 0) {
+                key = "Large";
+            } else {
+                key = "Small";
+            }
+            EntityFabric entityFabric = entityFabricMap.get(key);
+            System.out.println(entityFabric.toString() + ": " + entityFabric.getElement() + " >>>>>> " + entityFabric.getItem());
         }
-     }
+
+    }
 
 
     static class HeavyFabric implements EntityFabric {
@@ -100,7 +106,7 @@ public class ExampleAbstractFactory extends AbstractExampleClass {
 
         @Override
         public int getHeightTime() {
-            return height()/speed();
+            return height() / speed();
         }
     }
 
@@ -118,14 +124,14 @@ public class ExampleAbstractFactory extends AbstractExampleClass {
 
         @Override
         public int getHeightTime() {
-            return height()/speed();
+            return height() / speed();
         }
     }
 
 
-
     interface EntityFabric {
         Item getItem();
+
         Element getElement();
     }
 
@@ -133,6 +139,7 @@ public class ExampleAbstractFactory extends AbstractExampleClass {
     interface Item {
 
         public int width();
+
         public int length();
 
         public int showSquare();
@@ -142,6 +149,7 @@ public class ExampleAbstractFactory extends AbstractExampleClass {
     interface Element {
 
         public int speed();
+
         public int height();
 
         public int getHeightTime();

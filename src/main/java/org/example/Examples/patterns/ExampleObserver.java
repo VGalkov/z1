@@ -25,13 +25,13 @@ public class ExampleObserver extends AbstractExampleClass {
     static class Listener implements PublisherActionListener {
 
         @Override
-        public void actionPerfrom(String message) {
-            System.out.println(message + "это мне:" + this.toString());
+        public void action(String message) {
+            System.out.println(message + "это мне:" + this);
         }
     }
 
 
-    class Publisher implements PublisherInterface {
+    static class Publisher implements PublisherInterface<PublisherActionListener> {
 
         private List<PublisherActionListener> listenerList = new ArrayList<>();
 
@@ -53,12 +53,12 @@ public class ExampleObserver extends AbstractExampleClass {
 
         @Override
         public void deleteAll() {
-            listenerList = new ArrayList<PublisherActionListener>();
+            listenerList = new ArrayList<>();
         }
 
         @Override
         public void notifyItems(String message) {
-            listenerList.forEach(item -> item.actionPerfrom(message));
+            listenerList.forEach(item -> item.action(message));
         }
 
         public void createNewMessage(String message) {
@@ -68,16 +68,16 @@ public class ExampleObserver extends AbstractExampleClass {
     }
 
     interface PublisherActionListener {
-        public void actionPerfrom(String message);
+        void action(String message);
     }
 
 
-    interface PublisherInterface {
-        List<PublisherActionListener> getListeners();
+    interface PublisherInterface<L> {
+        List<L> getListeners();
 
-        void addListener(PublisherActionListener publisherActionListener);
+        void addListener(L listener);
 
-        void deleteListener(PublisherActionListener publisherActionListener);
+        void deleteListener(L listener);
 
         void deleteAll();
 

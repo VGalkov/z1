@@ -12,7 +12,7 @@ public class ExampleSingleton extends AbstractExampleClass {
     public void runContent() {
 
         List<MyThread> list = new ArrayList<>();
-        for(int i = 0; i<10; i++) {
+        for(int i = 0; i<5; i++) {
             list.add(new MyThread(MySingleTone.getMySingleTone()));
         }
 

@@ -15,7 +15,7 @@ public class ExampleFactory extends AbstractExampleClass {
         ItemSelector builder = ItemSelector.getInstance();
 
         List<ItemSelector.Item> itemList = new LinkedList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 7; i++) {
             itemList.add(builder.getItem(i)); //чётные - один тип, нечётные другой.
         }
 
