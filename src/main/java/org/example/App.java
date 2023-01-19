@@ -34,7 +34,7 @@ public class App {
         exampleClassList.add(new ExampleThreadNotify());
         exampleClassList.add(new ExampleSemaphore());
         //*
-        exampleClassList.add(new ExampleSingletone());
+        exampleClassList.add(new ExampleSingleton());
         exampleClassList.add(new ExampleFactory());
         exampleClassList.add(new ExampleAbstractFactory());
         exampleClassList.add(new ExampleDecorator());

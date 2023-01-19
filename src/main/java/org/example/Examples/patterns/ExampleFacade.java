@@ -14,9 +14,9 @@ public class ExampleFacade extends AbstractExampleClass {
 
 
     static class SequenceFacade {
-        private Thing_3 thing_3 = new Thing_3();
-        private Thing_2 thing_2 = new Thing_2();
-        private Thing_1 thing_1 = new Thing_1();
+        private final Thing_3 thing_3 = new Thing_3();
+        private final Thing_2 thing_2 = new Thing_2();
+        private final Thing_1 thing_1 = new Thing_1();
 
         public void compile() {
             thing_1.modeling();

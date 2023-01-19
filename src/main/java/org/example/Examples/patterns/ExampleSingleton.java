@@ -5,22 +5,21 @@ import org.example.Examples.AbstractExampleClass;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExampleSingletone extends AbstractExampleClass {
+public class ExampleSingleton extends AbstractExampleClass {
 
 
     @Override
     public void runContent() {
 
         List<MyThread> list = new ArrayList<>();
-        MySingleTone mySingleTone = new MySingleTone();
         for(int i = 0; i<10; i++) {
-            list.add(new MyThread(mySingleTone.getMySingleTone()));
+            list.add(new MyThread(MySingleTone.getMySingleTone()));
         }
 
         list.forEach(Thread::start);
     }
 
-    class MyThread extends Thread {
+    static class MyThread extends Thread {
 
         private final MySingleTone singleTone;
 
@@ -38,15 +37,15 @@ public class ExampleSingletone extends AbstractExampleClass {
 
     private static class MySingleTone {
 
-        private volatile MySingleTone mySingleTone;
+        private static volatile MySingleTone mySingleTone;
 
         private MySingleTone() {
             super();
         }
 
-        public MySingleTone getMySingleTone() {
+        public static synchronized MySingleTone getMySingleTone() {
             if (mySingleTone == null) {
-                synchronized (this) {
+                synchronized (MySingleTone.class) {
                     if (mySingleTone == null) {
                         mySingleTone = new MySingleTone();
                     }
