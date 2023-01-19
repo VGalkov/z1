@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="странные  sql запросы и немного алгоритмов">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ItemSelector.java" afterDir="false" />
+    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="правки синглтонов для полного соответствия требованиям и сочетание шаблонов.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExamplePrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/Copyable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleSingletone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/Craft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/helpClasses/Craft.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -257,8 +256,26 @@
       <option name="project" value="LOCAL" />
       <updated>1674063847372</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="правки синглтонов для полного соответствия требованиям и сочетание шаблонов.">
+      <created>1674149176922</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674149176922</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -310,7 +327,8 @@
     <MESSAGE value="..." />
     <MESSAGE value="объяснялка для functional interface" />
     <MESSAGE value="странные  sql запросы и немного алгоритмов" />
-    <option name="LAST_COMMIT_MESSAGE" value="странные  sql запросы и немного алгоритмов" />
+    <MESSAGE value="правки синглтонов для полного соответствия требованиям и сочетание шаблонов." />
+    <option name="LAST_COMMIT_MESSAGE" value="правки синглтонов для полного соответствия требованиям и сочетание шаблонов." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

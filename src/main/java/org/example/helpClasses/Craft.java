@@ -1,6 +1,6 @@
 package org.example.helpClasses;
 
-public class Craft {
+public class Craft implements Copyable {
     private final boolean status;
     private final String model;
 
@@ -29,6 +29,11 @@ public class Craft {
 
     private String getAdditionalString() {
         return "getAdditionalString";
+    }
+
+    @Override
+    public Craft getCopy() {
+        return new Craft(status, model);
     }
 
 }

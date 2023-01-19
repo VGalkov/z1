@@ -2,6 +2,7 @@ package org.example.Examples.patterns;
 
 import org.example.Examples.AbstractExampleClass;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class ExampleAdapter extends AbstractExampleClass {
@@ -9,8 +10,12 @@ public class ExampleAdapter extends AbstractExampleClass {
 
     @Override
     public void runContent() {
+        List<String>list = new LinkedList<>();
+        for (int i = 0; i< 5; i++)
+            list.add("record - " + i);
 
-
+        PrintAdapter printAdapter = new PrintAdapter();
+        printAdapter.print(list);
     }
 
 
