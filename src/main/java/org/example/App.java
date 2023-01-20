@@ -1,10 +1,10 @@
 package org.example;
 
-import org.example.Examples.*;
-import org.example.Examples.algorithms.ExampleRecursion;
-import org.example.Examples.algorithms.ExampleSorting;
-import org.example.Examples.patterns.*;
-import org.example.Examples.threads.*;
+import org.example.examples.*;
+import org.example.examples.algorithms.ExampleRecursion;
+import org.example.examples.algorithms.ExampleSorting;
+import org.example.examples.patterns.*;
+import org.example.examples.threads.*;
 
 import java.util.ArrayList;
 import java.util.List;
