@@ -4,52 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="мелкие красивости">
+    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="camelCase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/AbstractExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/AbstractExampleClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleBaseBeansConfigAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleBaseBeansConfigAnnotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleBaseBeansConfigXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleBaseBeansConfigXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleBigDecInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleBigDecInMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleExternalScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleExternalScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleFuncInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleFuncInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleObjectInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleObjectInMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleReflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleSerialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/ExampleStreamMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleStreamMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/algorithms/ExampleRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/algorithms/ExampleRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/algorithms/ExampleSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/algorithms/ExampleSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/algorithms/MathFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/algorithms/MathFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseAnnotations/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/beansBaseAnnotations/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseAnnotations/CraftFactoryAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/beansBaseAnnotations/CraftFactoryAnnotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseAnnotations/builderLine/CraftBuilderAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/beansBaseAnnotations/builderLine/CraftBuilderAnnotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseAnnotations/builderLine/HeavyCraftAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/beansBaseAnnotations/builderLine/HeavyCraftAnnotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseAnnotations/builderLine/LightCraftAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/beansBaseAnnotations/builderLine/LightCraftAnnotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseXML/CraftFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/beansBaseXML/CraftFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseXML/builderLine/CraftBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/beansBaseXML/builderLine/CraftBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseXML/builderLine/HeavyCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/beansBaseXML/builderLine/HeavyCraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/beansBaseXML/builderLine/LightCraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/beansBaseXML/builderLine/LightCraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExampleAbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExampleAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExampleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExampleFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExampleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExampleObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExamplePrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExamplePrototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExampleSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/patterns/ExampleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExampleState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/threads/ExampleSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/threads/ExampleThreadDeadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadDeadlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/threads/ExampleThreadNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadNotify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/threads/ExampleThreadNotify2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadNotify2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/threads/ExampleThreadRun1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadRun1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/threads/ExampleThreadRun2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadRun2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/threads/ExampleThreadRun3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadRun3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Examples/threads/ExampleThreadRunVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadRunVolatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Examples/beansBaseXML/builderLine/HeavyCraftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/examples/beansBaseXML/builderLine/HeavyCraftTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Examples/beansBaseXML/builderLine/MathFuncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/examples/beansBaseXML/builderLine/MathFuncTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/examples/ExampleFuncInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/patterns/ExampleFuncInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +55,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "last_opened_file_path": "E:/prj/demo3",
+    "last_opened_file_path": "D:/prj/z1",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -331,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674157586915</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="camelCase">
+      <created>1674225790416</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674225790416</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -399,40 +365,16 @@
     <MESSAGE value="опять правки шаблонов _ пожалуй ещё 1." />
     <MESSAGE value="," />
     <MESSAGE value="мелкие красивости" />
-    <option name="LAST_COMMIT_MESSAGE" value="мелкие красивости" />
+    <MESSAGE value="camelCase" />
+    <option name="LAST_COMMIT_MESSAGE" value="camelCase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/examples/algorithms/ExampleSorting.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/examples/algorithms/ExampleSorting.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadRun3.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadRun3.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadRunVolatile.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/examples/threads/ExampleThreadRunVolatile.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -440,6 +382,7 @@
       <configuration name="Application">
         <watch expression="list.get(i - 1)" language="JAVA" />
         <watch expression="list.get(i)" language="JAVA" />
+        <watch expression="reflections.getSubTypesOf(AbstractExampleClass.class)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
