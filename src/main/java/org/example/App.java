@@ -1,6 +1,9 @@
 package org.example;
 
 import org.example.examples.*;
+import org.example.examples.threads.ExampleSteps;
+import org.example.examples.threads.ExampleSteps2;
+import org.example.examples.threads.ExampleThreadDeadlock;
 import org.reflections.Reflections;
 
 import java.util.Arrays;
@@ -11,7 +14,7 @@ import java.util.Set;
  */
 public class App {
     public static void main(String[] args) {
-
+/*
         Reflections reflections = new Reflections("org.example");
         Set<Class<? extends AbstractExampleClass>> exampleClasses = reflections.getSubTypesOf(AbstractExampleClass.class);
 
@@ -22,5 +25,8 @@ public class App {
                         System.out.println(Arrays.toString(e.getStackTrace()));
                     }
                 });
+
+ */
+        (new ExampleSteps()).runTest();
     }
 }

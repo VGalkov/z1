@@ -10,17 +10,19 @@ public class ExampleThreadDeadlock extends AbstractExampleClass {
 
     @Override
     public void runContent() {
-        Resource1 resource1 = new Resource1();
-        Resource2 resource2 = new Resource2();
+        Resource resource1 = new Resource();
+        Resource resource2 = new Resource();
 
-        resource1.res2 = resource2;
-        resource2.res1 = resource1;
+        resource1.res = resource2;
+        resource2.res = resource1;
 
-        MyThread1 t1= new MyThread1();
-        MyThread2 t2 = new MyThread2();
+        MyThread t1= new MyThread();
+        MyThread t2 = new MyThread();
 
-        t1.resource1 = resource1;
-        t2.resource2 = resource2;
+        t1.resource = resource1;
+        t2.resource = resource2;
+
+        System.out.println("Make deadLock");
 
         t1.start();
         t2.start();
@@ -28,39 +30,31 @@ public class ExampleThreadDeadlock extends AbstractExampleClass {
     }
 
 
-    private class MyThread1 extends Thread {
-        public Resource1 resource1;
+    private static class MyThread extends Thread {
+        public Resource resource;
 
         @Override
         public void run() {
-            System.out.println(resource1.getI());
-        }
-    }
 
-    private class MyThread2 extends Thread {
-        public Resource2 resource2;
-
-        @Override
-        public void run() {
-            System.out.println(resource2.getI());
+            System.out.println(resource.getFirstElement());
         }
     }
 
 
     // ---
-    static class Resource1 {
-        public Resource2 res2;
+    static class Resource {
+        public Resource res;
 
-        public synchronized int getI() {
+        public synchronized int getFirstElement() {
             try {
                 sleep(200);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            return res2.returnI();
+            return res.getSecondElement();
         }
 
-        public synchronized int returnI() {
+        public synchronized int getSecondElement() {
             try {
                 sleep(100);
             } catch (InterruptedException e) {
@@ -70,26 +64,5 @@ public class ExampleThreadDeadlock extends AbstractExampleClass {
         }
     }
 
-    static class Resource2 {
-        public Resource1 res1;
-
-        public synchronized int getI() {
-            try {
-                sleep(200);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
-            return res1.returnI();
-        }
-
-        public synchronized int returnI() {
-            try {
-                sleep(100);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
-            return 2;
-        }
-    }
 
 }
