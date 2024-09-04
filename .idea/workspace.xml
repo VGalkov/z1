@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="camelCase">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/regular/ExampleRegular1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
@@ -83,11 +83,11 @@
       <recent name="org.example.tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.examples.regular" />
       <recent name="org.example.examples.Collections" />
       <recent name="org.example.examples" />
       <recent name="org.example.examples.threads" />
       <recent name="org.example.helpClasses" />
-      <recent name="org.example.Examples" />
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
