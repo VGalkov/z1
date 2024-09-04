@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="camelCase">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
@@ -167,7 +159,7 @@
       <workItem from="1725356648091" duration="4547000" />
       <workItem from="1725388431730" duration="29000" />
       <workItem from="1725389048994" duration="654000" />
-      <workItem from="1725439801864" duration="14975000" />
+      <workItem from="1725439801864" duration="15836000" />
     </task>
     <task id="LOCAL-00001" summary="болванка для собеседований maven">
       <created>1672754238750</created>
@@ -351,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725356818326</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="camelCase">
+      <created>1725459792930</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1725459792930</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,8 +441,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="list.indexOf(firstDigit)" language="JAVA" />
-        <watch expression="list.indexOf(secondDigit)" language="JAVA" />
+        <watch expression="(new ArrayList&lt;Integer&gt;(Arrays.asList(arr))).retainAll(digitsToCollect)" language="JAVA" custom="java.util.ArrayList" />
       </configuration>
     </watches-manager>
   </component>

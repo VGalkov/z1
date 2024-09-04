@@ -21,6 +21,6 @@ public class App {
 
  */
 
-        (new ExampleCollections9()).runTest();
+        (new ExampleCollections10()).runTest();
     }
 }
