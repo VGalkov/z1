@@ -1,16 +1,9 @@
 package org.example;
 
-import org.example.examples.*;
-import org.example.examples.threads.ExampleSteps;
-import org.example.examples.threads.ExampleSteps2;
-import org.example.examples.threads.ExampleThreadDeadlock;
-import org.reflections.Reflections;
-
-import java.util.Arrays;
-import java.util.Set;
+import org.example.examples.Collections.*;
 
 /**
- * Hello world!
+ * тут запускаются списком все наследники AbstractExampleClass, ну или по одному.
  */
 public class App {
     public static void main(String[] args) {
@@ -28,6 +21,6 @@ public class App {
 
  */
 
-        (new ExampleSteps()).runTest();
+        (new ExampleCollections9()).runTest();
     }
 }
