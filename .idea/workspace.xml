@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="camelCase">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/regular/ExampleRegular1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/Collections/ExampleCollections12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
@@ -24,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Vladimir Galkov &lt;s0506777@yandex.ru&gt;" />
+      </list>
+    </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -83,8 +89,8 @@
       <recent name="org.example.tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.examples.regular" />
       <recent name="org.example.examples.Collections" />
+      <recent name="org.example.examples.regular" />
       <recent name="org.example.examples" />
       <recent name="org.example.examples.threads" />
       <recent name="org.example.helpClasses" />
@@ -160,6 +166,12 @@
       <workItem from="1725388431730" duration="29000" />
       <workItem from="1725389048994" duration="654000" />
       <workItem from="1725439801864" duration="15836000" />
+      <workItem from="1725478593907" duration="14000" />
+      <workItem from="1725478628481" duration="16000" />
+      <workItem from="1725478961474" duration="63000" />
+      <workItem from="1725553829263" duration="5000" />
+      <workItem from="1725866212339" duration="135000" />
+      <workItem from="1725867796917" duration="2372000" />
     </task>
     <task id="LOCAL-00001" summary="болванка для собеседований maven">
       <created>1672754238750</created>
@@ -350,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725459792930</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="camelCase">
+      <created>1725477991034</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1725477991034</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,6 +442,8 @@
     <MESSAGE value="мелкие красивости" />
     <MESSAGE value="camelCase" />
     <option name="LAST_COMMIT_MESSAGE" value="camelCase" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -441,7 +462,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="(new ArrayList&lt;Integer&gt;(Arrays.asList(arr))).retainAll(digitsToCollect)" language="JAVA" custom="java.util.ArrayList" />
+        <watch expression="new ArrayList(str.toCharArray())" language="JAVA" />
+        <watch expression="Array.set" language="JAVA" custom="java.lang.reflect.Array" />
       </configuration>
     </watches-manager>
   </component>
