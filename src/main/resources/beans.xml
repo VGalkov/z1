@@ -16,7 +16,7 @@
         <constructor-arg index="0" value="2"/>
         <constructor-arg index="1" ref="lightCraft"/>
     </bean>
-
+    <bean id="uuid_generator" class="org.example.debris.UUID_Generator"/>
     <bean id="lightCraft" class="org.example.examples.beansBaseXML.builderLine.LightCraft"/>
     <bean id="heavyCraft" class="org.example.examples.beansBaseXML.builderLine.HeavyCraft"/>
 
