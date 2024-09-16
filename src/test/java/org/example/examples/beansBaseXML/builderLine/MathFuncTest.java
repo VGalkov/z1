@@ -1,14 +1,6 @@
 package org.example.examples.beansBaseXML.builderLine;
 
 import org.example.examples.algorithms.MathFunc;
-//import org.junit.*;
-//import org.junit.Test;
-
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertTrue;
-//import static org.junit.Assert.*;
-//import ru.galkov.other.MathFunc;
-
 
 public class MathFuncTest {
     private MathFunc math;
