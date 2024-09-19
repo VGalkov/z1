@@ -1,7 +1,6 @@
 package org.example;
 
-import org.example.examples.Collections.*;
-import org.example.examples.regular.ExampleRegular1;
+import org.example.examples.algorithms.LambdaExample;
 
 /**
  * тут запускаются списком все наследники AbstractExampleClass, ну или по одному.
@@ -22,6 +21,6 @@ public class App {
 
  */
 
-        (new ExampleCollections14()).runTest();
+        (new LambdaExample()).runTest();
     }
 }
