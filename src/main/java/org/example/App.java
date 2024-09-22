@@ -1,6 +1,9 @@
 package org.example;
 
 import org.example.examples.algorithms.LambdaExample;
+import org.example.examples.mash.ExampleMash1;
+import org.example.examples.mash.ExampleMash2;
+import org.example.examples.mash.ExampleMash3;
 
 /**
  * тут запускаются списком все наследники AbstractExampleClass, ну или по одному.
@@ -21,6 +24,6 @@ public class App {
 
  */
 
-        (new LambdaExample()).runTest();
+        (new ExampleMash3()).runTest();
     }
 }

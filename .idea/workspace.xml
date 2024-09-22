@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/algorithms/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/algorithms/TestFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/algorithms/TestFunctionImpl.java" afterDir="false" />
+    <list default="true" id="40a12d55-34dc-44c4-8845-201284911062" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/mash/ExampleMash1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/mash/ExampleMash2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/examples/mash/ExampleMash3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,11 +92,11 @@
       <recent name="org.example.tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.examples.mash" />
       <recent name="org.example.examples.Collections" />
       <recent name="org.example.examples.regular" />
       <recent name="org.example.examples" />
       <recent name="org.example.examples.threads" />
-      <recent name="org.example.helpClasses" />
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
@@ -401,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726738611067</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="2">
+      <created>1726754258081</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726754258081</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +482,8 @@
     <MESSAGE value="мелкие красивости" />
     <MESSAGE value="camelCase" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -495,12 +504,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="counter.get()" language="JAVA" />
-        <watch expression="key.length()" language="JAVA" />
-        <watch expression="map.get(key).size() &lt; k &amp;&amp; counter.get() &lt; key.length()" language="JAVA" />
-        <watch expression="map.get(key).size() &lt; k" language="JAVA" />
-        <watch expression="counter.get() &lt; key.length()" language="JAVA" />
-        <watch expression="map.get(key).size()" language="JAVA" />
+        <watch expression="str.deleteCharAt(str.length() - 1)" language="JAVA" />
+        <watch expression="Arrays.stream(res).sorted(Collections.reverseOrder()).collect(Collectors.joining(&quot; &quot;))" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
