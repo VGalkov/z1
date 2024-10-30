@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.examples.algorithms.Example1;
 import org.example.examples.algorithms.LambdaExample;
 import org.example.examples.mash.ExampleMash1;
 import org.example.examples.mash.ExampleMash2;
@@ -24,6 +25,6 @@ public class App {
 
  */
 
-        (new ExampleMash3()).runTest();
+        (new Example1()).runTest();
     }
 }
